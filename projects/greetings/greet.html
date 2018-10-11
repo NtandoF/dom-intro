@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="skeleton.css">
+
+    <title>Greetings Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="head">Greetings Page</h1>
+      <div class="row">
+        <div class="col-12">
+
+            <span class="col-1">Name</span>
+
+                <input type="text" name="textInput" placeholder="Enter Name" class="col-3 textInput" value="">
+                  <span> <small class="">counter:</small></span> <span class="counter">0</span>
+                  <button type="button" name="button" class="col-2 greetButton">Greet</button>
+                  <button type="button" name="button" class="col-2 clear">Clear</button>
+
+
+        </div>
+      </div>
+
+      <br>
+      <div class="row">
+
+        <div class="col-12">
+           <input type="radio" name="languageRadio" class="col-2 languageRadio" value="English"  >
+             <span class="col-2 label-body">English</span>
+               <input type="radio" name="languageRadio" class="col-2 languageRadio" value="Afrikaans">
+             <span class="col-2 label-body">Afrikaans</span>
+            <input type="radio" name="languageRadio" class="col-2 languageRadio" value="Isixhosa">
+          <span class="col-label-body">Isixhosa</span>
+        </div>
+
+      </div>
+
+      <br>
+
+      <br>
+      <div class="">
+      <div style="text-align:center" class="displayGreeting"></div>
+      </div>
+
+    </div>
+
+  </body>
+    <script src="greet.js" charset="utf-8"></script>
+    <script src="greet.logic.js" charset="utf-8"></script>
+
+</html>
